@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style 
+       include ../static/style.css
+       include ../static/styleAbout.css
+
+block content
+    div.container
+        h1 About Us
+        div.about-content
+            p Welcome to Shweta Dance Academy, where passion meets precision. Since our inception, we have been dedicated to providing the highest quality dance education in a supportive and inspiring environment.
+            
+            h2 Our Vision
+            p Our vision is to empower students through the art of dance, fostering creativity, discipline, and confidence. We believe that dance is for everyone, regardless of age or skill level.
+            
+            h2 Why Choose Us?
+            ul
+                li Expert instructors with years of professional experience
+                li Variety of dance styles including Classical, contemporary, and Jazz
+                li State-of-the-art studio facilities
+                li Performance opportunities and annual showcases
+            
+            p Join us and become part of a community that celebrates the joy of movement!

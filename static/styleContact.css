@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    /* Modern centered box width */
+    max-width: 90%;
+    /* Responsive */
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    /* Softer shadow */
+    border: 1px solid #eee;
+}
+
+.myInput {
+    padding: 12px 20px;
+    width: 100%;
+    /* Take full width of the box */
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.myInput:focus {
+    border-color: #121212;
+}
+
+.btn {
+    padding: 12px 40px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    background-color: #fb3e3e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    /* Pills shape button */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: #c11515;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(251, 62, 62, 0.4);
+}

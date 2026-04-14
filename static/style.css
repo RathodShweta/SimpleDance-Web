@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    /* text-align: center; */
+    top: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+#logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    /* Align links to the right */
+    align-items: center;
+    list-style: none;
+    flex-grow: 1;
+    /* Allow ul to take up remaining space */
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color: #c11515;
+    border-radius: 5px;
+}
+
+/* Intro Section */
+#introSection {
+    background: center / cover no-repeat url("/static/hero-bg.png");
+    height: 425px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* important */
+    justify-content: center;
+    align-items: center;
+    background-color: #fb3e3e;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#missionSection {
+    height: 480px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#missionSection h2 {
+    font-size: 2.5rem;
+    padding: 31px 12px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 28%;
+    margin: 10px 1.5%;
+    padding: 20px 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-img {
+    height: 131px;
+    margin-bottom: 20px;
+}
+
+.card-img img {
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #444;
+}
+
+#introSection p.small {
+    font-size: 1rem;
+}
+
+#sponsorSection {
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #895b7c;
+    color: white;
+    text-align: center;
+}
+
+#sponsorSection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.spImage {
+    height: 80px;
+    margin: 20px;
+    /* filter: grayscale(1); // Optional: makes logos more uniform */
+}
+
+#sponsorSection p.small {
+    font-size: 1rem;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+/* Footer */
+#footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    color: white;
+}
